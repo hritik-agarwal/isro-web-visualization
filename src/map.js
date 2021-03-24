@@ -256,7 +256,7 @@ class Map extends Component {
              }
              for(let i=0;i<urls1[idx].length;i++){
                 let j=i+1;
-                detail+= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style=\"color:white\" href=\""+urls1[idx][i]+"\">Publication"+j+"</a><br>";
+                detail+= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" style=\"color:white\" href=\""+urls1[idx][i]+"\">Publication"+j+"</a><br>";
              }
         }
         else if(name === "HMXB Observed"){ 
@@ -266,7 +266,7 @@ class Map extends Component {
             }
             for(let i=0;i<urls0[idx].length;i++){
                 let j=i+1;
-                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style=\"color:white\" href=\""+urls0[idx][i]+"\">Publication"+j+"</a><br>";
+                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" style=\"color:white\" href=\""+urls0[idx][i]+"\">Publication"+j+"</a><br>";
             }
         }
         else if(name === "LMXB Not Observed"){ 
@@ -276,7 +276,7 @@ class Map extends Component {
             }
             for(let i=0;i<urls3[idx].length;i++){
                 let j=i+1;
-                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style=\"color:white\" href=\""+urls3[idx][i]+"\">Publication"+j+"</a><br>";
+                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" style=\"color:white\" href=\""+urls3[idx][i]+"\">Publication"+j+"</a><br>";
             }
         }
         else {
@@ -286,7 +286,7 @@ class Map extends Component {
             }
             for(let i=0;i<urls2[idx].length;i++){
                 let j=i+1;
-                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style=\"color:white\" href=\""+urls2[idx][i]+"\">Publication"+j+"</a><br>";
+                detail+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=\"_blank\" style=\"color:white\" href=\""+urls2[idx][i]+"\">Publication"+j+"</a><br>";
             }
         }
         document.getElementById('infoarea').innerHTML = `<div id="detail">${detail}</div>`;
