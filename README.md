@@ -2,9 +2,12 @@
 
 This project was made to visualize the data of high mass xray binaries and low mass xray binaries. It uses plotly.js.
 
+The project is hosted at [https://isro-web-visualization.herokuapp.com/](https://isro-web-visualization.herokuapp.com/)
+
 ## Starting the app
 
 ### npm start
+
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
@@ -12,12 +15,15 @@ The page will reload if you make edits.
 ## Description of files
 
 ### index.js, index.css, App.js , App.css
+
 Contains basic javascript and css code which enable us to render the map component in the html.
 
 ### constants.js
+
 Contains the info for making the galactic grid and configuration for the plot.
 
 ### map.js
+
 Contains the definition of map component and has three functions
 
     1. componentDidMount() : React lifecycle method which fetches the data of xray binaries stored at gist.github and after fetching the data the corresponding hover text and other info are pushed in an array for further use by plotly to plot and display the relevant data.
@@ -26,7 +32,6 @@ Contains the definition of map component and has three functions
 
     3. render() : react method which employs plotly.js to plot the xray binaries on the galactic spherical grid.
 
- 
 ## Features of the plot:
 
     => We can zoom in and rotate the plot to get different views of the plot...

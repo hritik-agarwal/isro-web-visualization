@@ -244,6 +244,7 @@ class Map extends Component {
 
 /*Function to display the info of a clicked star so that info can be copied */
     handleClick = (e) => {
+        
         console.log(e);
         var idx = e.points[0].pointIndex;
         var name = e.points[0].data.name;
