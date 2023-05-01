@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/isro-web-visualization/static/css/main.fbf19ad2.chunk.css",
+    "main.js": "/isro-web-visualization/static/js/main.c7a90b2d.chunk.js",
+    "main.js.map": "/isro-web-visualization/static/js/main.c7a90b2d.chunk.js.map",
+    "runtime-main.js": "/isro-web-visualization/static/js/runtime-main.dfa0cd15.js",
+    "runtime-main.js.map": "/isro-web-visualization/static/js/runtime-main.dfa0cd15.js.map",
+    "static/js/2.dcba6d9a.chunk.js": "/isro-web-visualization/static/js/2.dcba6d9a.chunk.js",
+    "static/js/2.dcba6d9a.chunk.js.map": "/isro-web-visualization/static/js/2.dcba6d9a.chunk.js.map",
+    "index.html": "/isro-web-visualization/index.html",
+    "static/css/main.fbf19ad2.chunk.css.map": "/isro-web-visualization/static/css/main.fbf19ad2.chunk.css.map",
+    "static/js/2.dcba6d9a.chunk.js.LICENSE.txt": "/isro-web-visualization/static/js/2.dcba6d9a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfa0cd15.js",
+    "static/js/2.dcba6d9a.chunk.js",
+    "static/css/main.fbf19ad2.chunk.css",
+    "static/js/main.c7a90b2d.chunk.js"
+  ]
+}
