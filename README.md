@@ -48,3 +48,9 @@ Contains the definition of map component and has three functions
     4. Zoom Out: As the name suggests you can zoom out of the plot.
 
     5. Reset: This readjusts the plot to its origin position..
+
+## App Screenshots
+
+<img src="https://github.com/hritik-agarwal/isro-web-visualization/blob/master/src/assets/A.png" />
+<img src="https://github.com/hritik-agarwal/isro-web-visualization/blob/master/src/assets/B.png" />
+<img src="https://github.com/hritik-agarwal/isro-web-visualization/blob/master/src/assets/C.png" />
