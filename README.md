@@ -2,7 +2,9 @@
 
 This project was made to visualize the data of high mass xray binaries and low mass xray binaries. It uses plotly.js.
 
-<!-- The project is hosted at [https://isro-web-visualization.herokuapp.com/](https://isro-web-visualization.herokuapp.com/) -->
+## Live Demo
+
+View the live demo of the project at [https://hritik-agarwal.github.io/isro-web-visualization/](https://hritik-agarwal.github.io/isro-web-visualization/)
 
 ## Starting the app
 
